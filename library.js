@@ -109,9 +109,9 @@ plugin.getTopics = async function (hookData) {
 	hookData.topics.forEach((topic) => {
 		if (topic && parseInt(topic.isQuestion, 10)) {
 			if (parseInt(topic.isSolved, 10)) {
-				topic.title = '<span class="answered"><i class="fa fa-check"></i> [[qanda:topic_solved]]</span> ' + topic.title;
+				topic.titleSolver = '<span class="answered"><i class="fa fa-check"></i> [[qanda:topic_solved]]</span> ';
 			} else {
-				topic.title = '<span class="unanswered"><i class="fa fa-question-circle"></i> [[qanda:topic_unsolved]]</span> ' + topic.title;
+				topic.titleSolver = '<span class="unanswered"><i class="fa fa-question-circle"></i> [[qanda:topic_unsolved]]</span> ';
 			}
 		}
 	});

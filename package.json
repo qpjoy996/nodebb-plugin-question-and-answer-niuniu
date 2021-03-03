@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-question-and-answer",
-  "version": "0.7.6",
+  "name": "nodebb-plugin-question-and-answer-niuniu",
+  "version": "0.0.3",
   "description": "A nodebb-plugin-question-and-answer plugin for NodeBB which allows users to post topics as questions and select a post as the answer",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-plugin-question-and-answer"
+    "url": "https://github.com/qpjoy996/nodebb-plugin-question-and-answer-niuniu"
   },
   "keywords": [
     "nodebb",
@@ -15,12 +15,12 @@
     "Q&A"
   ],
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "qpjoy996",
+    "email": "qpjoy996@163.com"
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-plugin-question-and-answer/issues"
+    "url": "https://github.com/qpjoy996/nodebb-plugin-question-and-answer-niuniu/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
